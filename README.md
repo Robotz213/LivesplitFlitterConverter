@@ -29,7 +29,9 @@ livesplitflitterconverter Super+Mario+64-120+Star+Vitroncio.lss
 flitter /home/robotz213/Documents/Super+Mario+64-120+Star+Vitroncio.json
 ```
 
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](./src/video_example.webm)
+[Example](https://github.com/user-attachments/assets/fed992e2-99f0-405f-92cc-9b21eac17669)
+
+
 
 ## Output
 
