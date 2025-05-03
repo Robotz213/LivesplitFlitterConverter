@@ -1,0 +1,21 @@
+[project]
+name = "livesplitflitterconverter"
+version = "0.1.0"
+description = "Convert Livesplit to FlitterSplit"
+
+authors = [
+    {name = "Robotz213",email = "nicholas@robotz.dev"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
