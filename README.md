@@ -11,15 +11,19 @@ A Python tool to convert LiveSplit's .lss files into FlitterSplit-compatible JSO
 
 ### Installation
 
-1. Download the _.whl_ file
-2. In the file directory, install using [Pipx](https://pipx.pypa.io/stable/installation)
+1. Download your split file (e.g., [therun.gg](https://therun.gg/vitroncio/Super%20Mario%2064/120%20Star))
+2. Download the _.whl_ file in [Releases](https://github.com/Robotz213/LivesplitFlitterConverter/releases/latest)
+
+   > or build it yourself using [Poetry](https://python-poetry.org/docs/#installation).
+
+3. In the file directory, install using [Pipx (Recommended)](https://pipx.pypa.io/stable/installation)
 
 ```bash
 # Example:
 pipx install livesplitflitterconverter-0.1.0-py3-none-any.whl
 ```
 
-3. Run it!
+4. Run it!
 
 ```bash
 # Example:
@@ -30,8 +34,6 @@ flitter /home/robotz213/Documents/Super+Mario+64-120+Star+Vitroncio.json
 ```
 
 [Example](https://github.com/user-attachments/assets/fed992e2-99f0-405f-92cc-9b21eac17669)
-
-
 
 ## Output
 
