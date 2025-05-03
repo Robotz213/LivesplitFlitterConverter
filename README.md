@@ -9,41 +9,27 @@ A Python tool to convert LiveSplit's .lss files into FlitterSplit-compatible JSO
 - Handles time formatting and Unicode filename sanitization
 - Easy to use command-line interface
 
-## Installation
+### Installation
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/Robotz213/LivesplitFlitterConverter.git
-cd LivesplitFlitterConverter
-```
-
-2. Install using pip:
+1. Download the _.whl_ file
+2. In the file directory, install using [Pipx](https://pipx.pypa.io/stable/installation)
 
 ```bash
-pip install .
+# Example:
+pipx install livesplitflitterconverter-0.1.0-py3-none-any.whl
 ```
 
-## Usage
-
-### Command Line
-
-Convert a LiveSplit file using the command line:
+3. Run it!
 
 ```bash
-python -m livesplitflitterconverter path/to/your/splits.lss
+# Example:
+livesplitflitterconverter Super+Mario+64-120+Star+Vitroncio.lss
+>> Json file created: /home/robotz213/Documents/Super+Mario+64-120+Star+Vitroncio.json
+
+flitter /home/robotz213/Documents/Super+Mario+64-120+Star+Vitroncio.json
 ```
 
-### Python Module
-
-Use the converter in your Python code:
-
-```python
-from livesplitflitterconverter import FlitterJson
-
-# Convert a file
-FlitterJson("path/to/your/splits.lss")
-```
+[![Watch the video](https://i.sstatic.net/Vp2cE.png)](./src/video_example.webm)
 
 ## Output
 
